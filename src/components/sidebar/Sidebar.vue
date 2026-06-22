@@ -298,6 +298,11 @@ function handleTrickClick(trickId: string) {
     &:focus {
       border-color: rgba(255, 107, 53, 0.5);
     }
+
+    option {
+      background: #1a1a1a;
+      color: rgba(255, 255, 255, 0.8);
+    }
   }
 
   .add-btn {
